@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FORMATAÇÕES GENERICAS */
+body{
+    background-color: #222121;
+    font-family: calibri;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* HEADER */
+header{
+    background-color: brown;
+    height: 420px;
+    width: auto;
+    margin: 0 auto;
+}
+
+header h1{
+    float: left;
+    padding-left: 10px;
+    font-size: 65px;
+}
+
+#img-header{
+    float: right;
+    width: auto;
+    height: 420px;
+    transition: 200ms;
+}
+
+.font-des{
+    color: rgb(231, 231, 231);
+}
+
+/* SECTION RISCO */
+section{
+    clear: both;    
+}
+
+#risco{
+    color: whitesmoke;
+    width: 1150px;
+    height: 650px;
+    margin: auto;
+}
+
+#risco h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#risco-content{
+    float: right;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+}
+
+#risco-img{
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+    gap: 50px;
+    height: 300px;
+    display: flex;
+}
+
+.risco-img-border{
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+/* ASIDE SERVIÇOS */
+#servico{
+    width: 300px;
+    height: 650px;
+    padding-top: 27px;
+    text-align: center;
+}
+
+#aside-servico-content{
+    padding: 5px;
+    height: 300px;
+    background-color: aliceblue;
+
+}
+
+.list-item{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+li a{
+    color: #222121;
+    text-decoration:none;
+    padding: 5px;
+}
+
+li a:hover{
+    color: white;
+    background-color: #222121;
+}
+
+/* SECTION CLIENTES */
+#clientes{
+    height:250px;
+    text-align: center;
+    background-color: #1a1919;
+    color: whitesmoke;
+}
+
+.clientes-img{
+    height: 180px;
+    width: 180px;
+    border: 5px solid;
+    border-radius: 50%;
+    margin: 15px;
+    transition: 150ms;
+}
+
+.clientes-img:hover{
+    transform: scale(110%);
+    border: none;
+}
+
+/* SECTION CONTATO */
+#contato{
+    clear: both;
+    color: whitesmoke;
+    margin-top: auto;
+}
+
+#contato img{
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+footer p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
